@@ -1,0 +1,71 @@
+.block {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 300px;
+    margin-right: 40px;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px grey;
+    background: white;
+}
+
+img {
+    width: 300px;
+    height: 220px;
+}
+
+h1 {
+    font-size: 19px;
+}
+
+.img1 {
+    width: 85px;
+    height: 85px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+.shapes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.shape {
+    width: 125px;
+    height: 120px;
+    border: 1px solid black;
+    background: lightgrey;
+    font-size: 12px;
+    color: grey;
+    margin: 7px;
+}
+
+.shape p {
+    margin: 50px auto;
+    width: 125px;
+    text-align: center;
+}
+
+.shapes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
